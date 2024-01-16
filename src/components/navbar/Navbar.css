@@ -1,0 +1,18 @@
+nav{
+    background: rgb(34, 34, 34);
+}
+.navbar-block{
+    display: flex;
+    gap: 30px;
+}
+.navbar-block .nav-link{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .6s all ease;
+}
+.navbar-block .nav-link.active{
+    color: hsl(0, 70%, 69%);
+    font-size: 35px;
+}
