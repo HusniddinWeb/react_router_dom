@@ -2,7 +2,6 @@ import React from 'react'
 import "./Home.css"
 import Card from './Card'
 import {car} from "../../datas/products/Products"
-// import {car1} from "../../datas/products/Products"
 
 function Home() {
   

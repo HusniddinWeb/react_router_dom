@@ -1,7 +1,6 @@
 import React from 'react'
 import "./ProductDetail.css"
 import { car } from '../../datas/products/Products'
-// import { car1 } from '../../datas/products/Products'
 import { useParams } from 'react-router-dom'
 
 
