@@ -11,7 +11,7 @@ function Card({img,title,price,id}) {
   return (
         <div className='card'>
 
-            <div className='home-Block' onClick={onButton}>
+            <div className='home-Block' onClick={onButton} >
                 <img src={img} alt="" />
                 <div className='text'>
                     <h1>{title}</h1>
