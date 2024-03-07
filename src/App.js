@@ -1,6 +1,9 @@
 import './App.css';
 import { useState } from 'react';
 import Navbar from './components/navbar/Navbar';
+// import Main from './components/main/Main';
+
+
 import {Routes, Route} from "react-router-dom";
 import Home from './pages/home/Home';
 import Login from "./pages/login/Login";
@@ -15,6 +18,7 @@ function App() {
     <div className="App">
       
       <Navbar />
+      {/* <Main /> */}
       
       <Routes>
         <Route path='/' element={ <Home /> } />
